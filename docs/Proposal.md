@@ -2,6 +2,62 @@ PROJECT PROPOSAL
 
 Project Title: Pet Store Management System
 
+2️⃣ Objectives (Mục tiêu)
+
+Apply OOP concepts: Encapsulation, Inheritance, Polymorphism, and Abstraction.
+
+Practice class design and object interaction.
+
+Build a menu-driven program with validation and user interaction.
+
+Manage data using collections (ArrayList).
+
+3️⃣ System Features (Chức năng hệ thống)
+
+Add new pets (Dog, Cat).
+
+Remove pets.
+
+Search pets by name.
+
+Display all pets.
+
+Create customer orders.
+
+Calculate and display order total.
+
+Exit the program safely.
+
+4️⃣ Class Design (Thiết kế các class)
+🔹 1. Class Pet (Base Class)
+
+Role: Represents a general pet.
+
+Attributes:
+
+id, name, age, price, type
+
+Methods:
+
+input(): Input pet information.
+
+display(): Display pet information.
+
+getId(), getPrice(): Access data safely.
+
+OOP:
+Encapsulation, Abstraction, Parent class for inheritance.
+
+🔹 2. Class Dog (Child Class)
+
+Role: Represents a dog, extends Pet.
+
+Attributes:
+
+breed
+
+Methods:
+
 Override input() and display().
 
 OOP:
